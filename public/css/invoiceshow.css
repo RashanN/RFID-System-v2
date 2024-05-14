@@ -1,0 +1,43 @@
+.producttable {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 100px;
+}
+
+.producttable th, .producttable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.producttable th {
+    background-color: #f2f2f2;
+}
+
+.producttable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.producttable tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.producttable button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.producttable button:hover {
+    background-color: #c82333;
+}
+#form-control{
+    border: black solid 1px;
+
+}
+.input-with-border {
+    border: 1px solid #ced4da; /* You can adjust the color and width of the border as needed */
+}
